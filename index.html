@@ -16,7 +16,6 @@
     <nav aria-label="メインナビゲーション">
       <a href="#line">できること</a>
       <a href="#problems">お悩み</a>
-      <a href="#sample">サンプル</a>
       <a href="#services">料金</a>
       <a href="#web">制作物</a>
       <a href="#about">ABOUT</a>
@@ -34,17 +33,45 @@
           <a class="home-cta home-cta-primary" href="https://line.me/R/ti/p/%40281okmco" target="_blank" rel="noopener noreferrer">サンプルLINEを体験する <span aria-hidden="true">↗</span><span class="sr-only">（新しいタブ）</span></a>
           <a class="home-cta home-cta-secondary" href="#services">サービス・料金を見る <span aria-hidden="true">↓</span></a>
         </div>
+        <p class="hero-sample-note">※ 架空の美容室を想定したサンプルLINEです。予約操作も実際にお試しいただけます。</p>
       </div>
       <div class="home-hero-visual" aria-label="MUSCLE CUTのLINEサンプル画面">
         <span class="hero-orbit hero-orbit-one" aria-hidden="true"></span>
         <span class="hero-orbit hero-orbit-two" aria-hidden="true"></span>
         <span class="hero-tag hero-tag-flow" aria-hidden="true">FLOW / MENU / CRM</span>
         <span class="hero-tag hero-tag-live" aria-hidden="true">TRY IT ↗</span>
-        <div class="hero-phone">
-          <span class="hero-phone-speaker" aria-hidden="true"></span>
-          <img src="images/muscle-cut/01_line_experience.png" width="836" height="1909" alt="友だち追加後の案内とリッチメニューを表示したMUSCLE CUTの実際のLINE画面">
+        <div class="hero-slider" data-hero-slider role="region" aria-roledescription="カルーセル" aria-label="MUSCLE CUTの実画像" tabindex="0">
+          <div class="hero-phone">
+            <span class="hero-phone-speaker" aria-hidden="true"></span>
+            <div class="hero-slides">
+              <div class="hero-slide hero-slide-logo is-active" data-hero-slide aria-hidden="false"><img src="images/muscle-cut-logo.png" width="1000" height="1000" alt="MUSCLE CUTのロゴ"></div>
+              <div class="hero-slide" data-hero-slide aria-hidden="true"><img src="images/muscle-cut/01_line_experience.png" width="836" height="1909" alt="友だち追加後の案内とリッチメニュー"></div>
+              <div class="hero-slide" data-hero-slide aria-hidden="true"><img src="images/muscle-cut/02_reservation_intro.png" width="837" height="1906" alt="店舗紹介と予約案内画面"></div>
+              <div class="hero-slide" data-hero-slide aria-hidden="true"><img src="images/muscle-cut/03_staff_select.png" width="837" height="1907" alt="担当スタッフを選択する画面"></div>
+              <div class="hero-slide" data-hero-slide aria-hidden="true"><img src="images/muscle-cut/04_point_benefit.png" width="836" height="1920" alt="ポイントカードと特典案内画面"></div>
+            </div>
+          </div>
+          <div class="hero-slide-copy">
+            <div class="hero-slide-copy-item is-active" data-slider-copy aria-hidden="false"><strong>LINE全体の導線</strong><p>友だち追加から予約・特典まで、必要な情報へ迷わず進めるLINE導線をまとめて設計しています。</p></div>
+            <div class="hero-slide-copy-item" data-slider-copy aria-hidden="true"><strong>友だち追加後の案内とリッチメニュー</strong><p>友だち追加直後に必要な情報を案内し、リッチメニューから予約・メニュー・ポイントなどへ進めるようにしています。</p></div>
+            <div class="hero-slide-copy-item" data-slider-copy aria-hidden="true"><strong>LINEからそのまま予約へ</strong><p>店舗情報やサービス内容を確認したあと、そのまま予約へ進める導線を用意しています。</p></div>
+            <div class="hero-slide-copy-item" data-slider-copy aria-hidden="true"><strong>スタッフを選べる予約導線</strong><p>指名なし・スタッフ選択など、希望に合わせて予約を進められるようにしています。</p></div>
+            <div class="hero-slide-copy-item" data-slider-copy aria-hidden="true"><strong>ポイント・特典で再来店のきっかけをつくる</strong><p>ポイントカードや特典を用意し、来店後もLINEでつながる仕組みを作っています。</p></div>
+          </div>
+          <div class="hero-slider-controls">
+            <button class="hero-slider-arrow" type="button" data-slider-prev aria-label="前の画像を表示">←</button>
+            <div class="hero-slider-dots" aria-label="表示する画像を選択">
+              <button type="button" data-slider-dot aria-label="1枚目を表示" aria-current="true"></button>
+              <button type="button" data-slider-dot aria-label="2枚目を表示"></button>
+              <button type="button" data-slider-dot aria-label="3枚目を表示"></button>
+              <button type="button" data-slider-dot aria-label="4枚目を表示"></button>
+              <button type="button" data-slider-dot aria-label="5枚目を表示"></button>
+            </div>
+            <button class="hero-slider-arrow" type="button" data-slider-next aria-label="次の画像を表示">→</button>
+          </div>
+          <p class="hero-slider-count" aria-hidden="true"><span data-slider-current>01</span> / 05</p>
+          <p class="sr-only" data-slider-announcer aria-live="polite"></p>
         </div>
-        <img class="hero-logo" src="images/muscle-cut-logo.png" alt="MUSCLE CUT Hair Salon">
       </div>
       <div class="home-hero-foot" aria-hidden="true"><span>導入</span><i>→</i><span>構築</span><i>→</i><span>運用</span><i>→</i><span>改善</span></div>
     </section>
@@ -78,39 +105,60 @@
       </div>
     </section>
 
-    <section class="sample-section" id="sample" aria-labelledby="sample-title">
-      <div class="home-section-head sample-heading">
-        <div><p class="home-kicker">サンプルLINEを体験</p><h2 id="sample-title">触ってわかる、<br>MUSCLE CUT。</h2></div>
-        <p>友だち追加後の案内から予約、スタッフ選択、来店後の特典まで。実際のLINE画面で流れを確認できます。</p>
-      </div>
-      <ul class="sample-functions" aria-label="サンプルLINEで確認できる機能">
-        <li>友だち追加後の案内</li><li>リッチメニュー</li><li>予約導線</li><li>スタッフ選択</li><li>ポイント・特典</li><li>よくある質問</li>
-      </ul>
-      <div class="sample-gallery">
-        <figure class="sample-shot sample-shot-main"><div><img src="images/muscle-cut/01_line_experience.png" width="836" height="1909" alt="友だち追加後の案内と6つのリッチメニュー" loading="lazy"></div><figcaption>LINE EXPERIENCE</figcaption></figure>
-        <figure class="sample-shot"><div><img src="images/muscle-cut/02_reservation_intro.png" width="837" height="1906" alt="店舗紹介、営業時間、サービス案内と予約ボタン" loading="lazy"></div><figcaption>RESERVATION</figcaption></figure>
-        <figure class="sample-shot"><div><img src="images/muscle-cut/03_staff_select.png" width="837" height="1907" alt="指名なし、またはスタッフを選択できる画面" loading="lazy"></div><figcaption>STAFF SELECT</figcaption></figure>
-        <figure class="sample-shot"><div><img src="images/muscle-cut/04_point_benefit.png" width="836" height="1920" alt="ポイントカードと特典案内" loading="lazy"></div><figcaption>POINT / BENEFIT</figcaption></figure>
-      </div>
-      <div class="sample-action">
-        <a class="home-cta home-cta-primary" href="https://line.me/R/ti/p/%40281okmco" target="_blank" rel="noopener noreferrer">サンプルLINEを体験する <span aria-hidden="true">↗</span><span class="sr-only">（新しいタブ）</span></a>
-        <p>※ 架空の美容室を想定したサンプルLINEです。予約操作も実際にお試しいただけます。</p>
-      </div>
-    </section>
-
     <section class="pricing-section" id="services" aria-labelledby="pricing-title">
       <div class="home-section-head pricing-heading">
         <div><p class="home-kicker">サービス・料金</p><h2 id="pricing-title">必要な範囲から、<br>選べます。</h2></div>
         <p>初期構築から改善、運用中のスポット作業まで対応します。</p>
       </div>
       <div class="pricing-grid">
-        <article class="price-card"><span class="price-index">01</span><h3>LINE公式アカウント<br>初期構築</h3><p class="price">30,000円</p><p class="price-description">初期設定、リッチメニュー、基本導線をまとめて構築します。</p></article>
-        <article class="price-card price-card-featured"><span class="recommend">おすすめ</span><span class="price-index">02</span><h3>LINE公式アカウント＋<br>CRM導入・構築</h3><p class="price">50,000円</p><p class="price-description">初期構築に加え、フォーム・タグ・顧客管理の仕組みを整えます。</p></article>
-        <article class="price-card"><span class="price-index">03</span><h3>既存LINE<br>改善・改修</h3><p class="price">10,000円〜</p><p class="price-description">現在の構成を確認し、迷いやすい導線や案内内容を見直します。</p></article>
-        <article class="price-card"><span class="price-index">04</span><h3>LINE<br>運用代行</h3><p class="price price-monthly">月額10,000円〜</p><p class="price-description">配信や設定更新など、継続的な運用をサポートします。</p></article>
-        <article class="price-card"><span class="price-index">05</span><h3>LINE<br>スポット作業</h3><p class="price">5,000円〜</p><p class="price-description">画像差し替えや設定変更など、必要な作業だけ対応します。</p></article>
+        <article class="price-card">
+          <span class="price-index">01</span>
+          <h3>LINE公式アカウント<br>初期構築</h3>
+          <p class="price">30,000円</p>
+          <p class="price-label">こんな方におすすめ</p>
+          <p class="price-audience">これからLINEを始めたい方。<br>まずはお客様との窓口をきちんと作りたい方。</p>
+          <p class="price-service">あいさつ、リッチメニュー、自動応答、基本的な案内などを整えて、LINEを「まず使える状態」までまとめて構築します。</p>
+          <div class="price-supplement"><strong>01はここまで</strong><p>予約・案内・問い合わせなど、LINEの基本的な窓口づくり。</p></div>
+        </article>
+        <article class="price-card price-card-featured">
+          <span class="recommend">おすすめ</span>
+          <span class="price-index">02</span>
+          <h3>LINE公式アカウント＋<br>CRM導入・構築</h3>
+          <p class="price">50,000円</p>
+          <p class="price-label">こんな方におすすめ</p>
+          <p class="price-audience">LINEを作るだけでなく、<br>お客様ごとに情報を整理し、案内を分けたい方。</p>
+          <p class="price-service"><strong>01の内容をすべて含みます。</strong>さらに、フォーム回答や興味・状況を整理して、お客様に合わせた案内や配信ができる仕組みまで整えます。</p>
+          <div class="price-supplement"><strong>01との違い</strong><p>01＝LINEを使える状態にする。<br><br>02＝お客様ごとの情報を整理し、相手に合わせて案内できる状態にする。</p><p class="price-supplement-note">50,000円は01を含む合計料金です。</p></div>
+        </article>
+        <article class="price-card">
+          <span class="price-index">03</span>
+          <h3>既存LINE<br>改善・改修</h3>
+          <p class="price">10,000円〜</p>
+          <p class="price-label">こんな方におすすめ</p>
+          <p class="price-audience">すでにLINEはあるけれど、<br>使いにくい・活用できていないと感じている方。</p>
+          <p class="price-service">リッチメニュー、応答、リンク先、案内の流れなどを確認し、今あるLINEを活かしながら必要な部分だけ改善します。</p>
+          <div class="price-supplement"><strong>今あるLINEを活かして改善</strong><p>すべて作り直さず、使いにくい部分や困っている箇所だけ見直せます。</p></div>
+        </article>
+        <article class="price-card">
+          <span class="price-index">04</span>
+          <h3>LINE<br>運用代行</h3>
+          <p class="price price-monthly">月額10,000円〜</p>
+          <p class="price-label">こんな方におすすめ</p>
+          <p class="price-audience">LINEはあるけれど、<br>配信や更新を続ける時間が取れない方。運用に不安がある方。</p>
+          <p class="price-service">配信文作成・配信設定・軽微な修正などの継続的な運用をサポート。運用相談や操作相談、必要に応じた操作レクチャーにも対応します。</p>
+          <div class="price-supplement"><strong>継続運用をまとめてサポート</strong><p>配信・更新だけでなく、運用方法や操作についても相談できます。</p></div>
+        </article>
+        <article class="price-card">
+          <span class="price-index">05</span>
+          <h3>LINE<br>スポット作業</h3>
+          <p class="price">5,000円〜</p>
+          <p class="price-label">こんな方におすすめ</p>
+          <p class="price-audience">月額契約までは必要ないけれど、<br>一部分だけ直したい方。</p>
+          <p class="price-service">メニュー差し替え、自動返信、リンク先変更、軽微なフォーム修正など、必要な作業だけ単発で依頼できます。</p>
+          <div class="price-supplement"><strong>必要なときだけ依頼</strong><p>小さな修正や設定変更にも対応します。</p></div>
+        </article>
       </div>
-      <p class="price-note">※ 02は01の内容を含む合計50,000円のセット料金です。外部CRMツール等の利用料金は必要に応じて別途。</p>
+      <p class="price-note">※ 02は01の内容を含む合計50,000円のセット料金です。<br>外部CRMツール等の利用料金は必要に応じて別途かかります。</p>
     </section>
 
     <section class="other-works" id="web" aria-labelledby="works-title">
@@ -138,7 +186,7 @@
     <section class="contact-section" id="contact" aria-labelledby="contact-title">
       <div class="section-label"><span>CONTACT</span><span class="color-dots" aria-hidden="true"><i></i><i></i><i></i></span></div>
       <h2 id="contact-title">CONTACT</h2>
-      <div class="contact-bottom"><p class="contact-copy">相談内容がまだまとまってなくても大丈夫です。<br>「LINEでこんなことできますか？」<br>「こんなサイト作れますか？」<br>くらいの段階から気軽にメールしてください。</p><div class="contact-action"><a class="contact-mail-cta" href="mailto:nakayouwork@gmail.com">メールする <span aria-hidden="true">→</span></a><a class="contact-address" href="mailto:nakayouwork@gmail.com">nakayouwork@gmail.com</a></div></div>
+      <div class="contact-bottom"><p class="contact-copy">相談内容がまだまとまってなくても大丈夫です。<br>「LINEでこんなことできますか？」<br>「こんなサイト作れますか？」<br>くらいの段階から気軽にメールしてください。</p><div class="contact-action"><a class="contact-mail-cta" href="mailto:nakayouwork@gmail.com">メールする <span aria-hidden="true">→</span></a><a class="contact-line-cta" href="https://line.me/R/ti/p/%40281okmco" target="_blank" rel="noopener noreferrer">サンプルLINEを体験する <span aria-hidden="true">↗</span><span class="sr-only">（新しいタブ）</span></a><a class="contact-address" href="mailto:nakayouwork@gmail.com">nakayouwork@gmail.com</a></div></div>
       <footer><span>© YUYA NAKAJIMA</span><a href="#top">BACK TO TOP ↑</a><span>LINE SUPPORT / WEB DESIGN</span></footer>
     </section>
   </main>
